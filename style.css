@@ -23,7 +23,7 @@ img {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 159;
+  --hue: 559;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
@@ -37,8 +37,8 @@ img {
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
 
-  --title-font: 'Poppins', sans-serif;
-  --body-font: 'DM Sans', sans-serif;
+  --title-font: "Poppins", sans-serif;
+  --body-font: "DM Sans", sans-serif;
 }
 
 /*===  BASE ============================ */
@@ -179,7 +179,7 @@ nav ul li a.active {
 }
 
 nav ul li a::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 2px;
   background: var(--base-color);
@@ -271,7 +271,7 @@ nav.show div.icon-close {
 }
 
 #home .image::before {
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   background: var(--base-color-second);
@@ -319,7 +319,7 @@ nav.show div.icon-close {
 }
 
 #about .image::before {
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   background: var(--base-color-second);
@@ -605,7 +605,7 @@ footer .social a:hover {
   /* about */
   #about .container {
     margin: 0 auto;
-    grid-auto-flow: column;    
+    grid-auto-flow: column;
   }
 
   /* service */
